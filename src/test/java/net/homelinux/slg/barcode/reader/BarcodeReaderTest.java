@@ -50,7 +50,7 @@ public class BarcodeReaderTest {
 			assertEquals(code.getBarcodes().get(0).getCode(), "3014260115531");
 		}
 		
-		assertTrue(code.getBarcodes().size() == 15);
+		assertTrue(code.getBarcodes().size() == 14);
 	}
 
 }
